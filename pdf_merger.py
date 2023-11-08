@@ -9,4 +9,6 @@ for file in os.listdir(os.curdir):
         merger = PyPDF2.PdfFileMerger()
         merger.append(file)
     merger.write("NewCombinedFile.pdf")
+    
+    
     # print(file)
